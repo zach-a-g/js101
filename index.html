@@ -7,9 +7,21 @@
     <title>Document</title>
 </head>
 <body>
-    Open the dev tools and check the console for output.
+    Open the DevTools and check the console for output.
     <script>
+        console.log("Page Loaded");
+       
+        function add(num1, num2) {
+            return num1 + num2;
+        }
+
+        const result = add(2,2);
         
+        const result_statement = `The result is ${result}`;
+
+        console.log(result_statement)
+        console.log(result)
+        console.log(`The result is ${result}`)
     </script>
 </body>
 </html>
